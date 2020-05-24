@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         MediaPlayer media = MediaPlayer.create(this, R.raw.baby_laughing);
         media.start();
-//once done with the playback
         media.release();
         Media = null;
 
